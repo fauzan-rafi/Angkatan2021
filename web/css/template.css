@@ -1,0 +1,73 @@
+*{
+      box-sizing: border-box;
+      
+}
+
+header{
+      font-size: 30px;
+      color: whitesmoke;
+      padding: 50px;
+      background-color: rgb(167, 184, 173);
+      text-align: center;
+      
+}
+
+
+
+nav {
+      float: left;
+      width: 30%;
+      height: 370px; /* ukuran menyesuaikan */
+      background: #ccc;
+      padding: 20px;
+}
+
+nav ul{
+      list-style-type: none;
+      font-size: 30px;
+      padding: 0;
+}
+
+a{
+      color: black;
+      text-decoration: none;
+}
+
+a:hover{
+      color: white;
+      text-decoration: none;
+      transition: 0.5s;
+}
+article {
+      float: left;
+      padding: 10px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 370px; /* Ukuran menyesuaikan */
+      text-align: center;
+}
+
+article h1{
+      font-size: 33px;
+}
+
+article p{
+      font-size: 33px;
+}
+
+
+/* untuk membersihkan effect float setelah section */
+section::after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+footer{
+      font-size: 20px;
+      color: whitesmoke;
+      padding: 15px;
+      background-color: rgb(113, 117, 114);
+      text-align: center;
+      
+}
